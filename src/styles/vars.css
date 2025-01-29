@@ -2,13 +2,23 @@
   /* Font */
   --font-dm-sans: 'DM Sans', sans-serif;
 
+  /* Font Weight */
+  --font-bold: 700;
+  --font-semi-bold: 600;
+  --font-medium: 500;
+  --font-normal: 400;
+  --font-light: 300;
+
   /* Colors */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0, 0, 0, 7);
   --black: #000000;
   --white: #ffffff;
   --dark-gray: #121212;
   --soft-dark-gray: #242424;
   --light-gray: #b3b3b3;
   --gray: #878787;
+  --simple-gray: #a7a7a7;
   --gradient-pink: #ae2896;
   --gradient-blue: #509bf5;
 }
