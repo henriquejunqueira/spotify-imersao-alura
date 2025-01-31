@@ -101,10 +101,13 @@
           <div class="header__search">
             <img src="./src/assets/icons/search.png" alt="" />
             <input
-              type="text"
               id="search-input"
               maxlength="800"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
               placeholder="O que você quer ouvir?"
+              value=""
             />
           </div>
 
@@ -116,7 +119,7 @@
 
         <!-- Playlist -->
         <div class="playlist-container">
-          <div class="result-playlists">
+          <div id="result-playlists">
             <div class="playlist">
               <h1 id="greeting">Boas vindas</h1>
               <h2 class="session">Navegar por todas as seções</h2>
