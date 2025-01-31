@@ -21,4 +21,9 @@
   --simple-gray: #a7a7a7;
   --gradient-pink: #ae2896;
   --gradient-blue: #509bf5;
+  --color-transparent: transparent;
+  --color-card-artist: #181818;
+  --color-card-artist-hover: #252525;
+  --color-artist-categorie: #6a6a6a;
+  --color-fa-play: #1db954;
 }
